@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    height: 100vh;
+    overflow: hidden;
+    font-family: montserrat;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 400px;
+}
+h1.login{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+input.des{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #3F5EFB;
+    width: 300px;
+    margin: 10px 30px;  
+}
+input.des:hover{
+    border-bottom: 1px solid #FC466B;
+    transition: 0.5s;
+}
+a.forgot{
+    color: silver;
+    text-decoration: none;
+    margin: 10px 30px;
+    font-size: small;
+}
+a.forgot:hover{
+    color: #3F5EFB;
+    transition: 0.3s;
+}
+input.btn{
+    text-align: center;
+    border-radius: 50px;
+    background-color: #3F5EFB;
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin: 10px 45px;
+    font-size: larger;
+    color: #fff;
+}
+input.btn:hover{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    transition: 0.5s;
+}
+
+.member{
+    text-align: center;
+    margin: 10px;
+}
+.member a{
+    text-decoration: none;
+    color: #3F5EFB;
+}
+.member a:hover{
+    color: #FC466B;
+    transition: 0.5s;
+}
